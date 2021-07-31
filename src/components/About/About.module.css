@@ -1,0 +1,137 @@
+@media (max-width: 768px) {
+  .aboutDiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.imageDiv {
+  padding: 3px;
+  margin: 1px;
+  width: 20%;
+}
+
+.aboutDiv {
+  padding: 5px;
+  display: flex;
+  margin-top: 5em;
+  justify-content: space-around;
+}
+
+.aboutMeSkillsDiv {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  font-size: larger;
+  align-items: center;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.skillSection {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  flex: 1;
+  text-align: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: larger;
+}
+
+.nameDiv h3 {
+  font-size: 2em;
+}
+
+.skillHeading {
+  font-size: 2em;
+  color: #fff;
+}
+
+.projectsContactDiv {
+  flex: 1;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.aboutMePara {
+  color: white;
+  padding: 40px;
+  text-align: center;
+  font-size: 1.25em;
+  word-spacing: 2.5px;
+  line-height: 2.5em;
+}
+
+.aboutMePara a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 12px;
+}
+
+.buttonsDiv {
+  padding: 3px;
+}
+
+.profilePictureDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nameDiv {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.nameDiv h1 {
+  font-size: 5em;
+}
+
+.dpNameDiv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 1px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contactButton {
+  position: inherit;
+  top: 50%;
+  left: 10%;
+  font-size: 30px;
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+.projectButton {
+  position: inherit;
+  top: 50%;
+  right: 30%;
+  font-size: 30px;
+  border: none;
+  color: black;
+  background-color: white;
+}
+
+.projectButton:hover,
+.contactButton:hover {
+  color: black;
+  background-color: white;
+}

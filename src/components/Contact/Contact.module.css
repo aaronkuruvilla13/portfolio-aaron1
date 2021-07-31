@@ -1,0 +1,140 @@
+.contactHeading {
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  justify-content: center;
+}
+
+.contactHeading h1 {
+  color: white;
+  font-size: 5em;
+  justify-content: center;
+  align-self: center;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.half li {
+  font-size: 2em;
+  padding: 5px;
+  margin: 5px;
+}
+
+.half a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.MailIcon,
+.PhoneIcon,
+.linkedIn,
+.gitHub {
+  color: white;
+  font-size: 1.5em;
+  padding: 5px;
+  border-radius: 5px;
+  width: 2em;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contactFormDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.formDiv {
+  flex: 1;
+  display: flex;
+}
+
+.pingMe {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.half {
+  text-align: center;
+  display: flex;
+  padding: 5px;
+}
+
+.half li {
+  list-style: none;
+  display: flex;
+}
+.half ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pingMe h3 {
+  margin-top: 15px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  word-spacing: 5px;
+  font-size: 2em;
+  font-family: "Alegreya Sans SC", sans-serif;
+  letter-spacing: 2px;
+}
+
+.contactForm {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 80%;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  color: #ffffff;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.contactForm label,
+button {
+  padding: 5px;
+  margin-top: 2px;
+  justify-content: center;
+}
+
+.contactForm input,
+textarea {
+  justify-content: center;
+  width: 50%;
+}
+
+.contactForm button {
+  width: 120px;
+  border: none;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 5px;
+  font-size: 2em;
+  margin-top: 10px;
+  border-radius: 5px;
+  animation: myanimation 3s infinite;
+}
+
+@keyframes myanimation {
+  10% {
+    background-color: #4056a1;
+  }
+  25% {
+    background-color: #4e4e50;
+  }
+  50% {
+    background-color: #6f2232;
+  }
+  75% {
+    background-color: #950740;
+  }
+  100% {
+    background-color: #c3073f;
+  }
+}

@@ -1,0 +1,24 @@
+.icons {
+  padding: 1px;
+  margin: 5px 15px;
+  position: relative;
+  display: inline-flex;
+  border: 3px white solid;
+  border-radius: 25px;
+  width: 80px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.iconsDiv {
+  margin-top: 30px;
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
